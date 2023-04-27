@@ -197,13 +197,21 @@ footer{
 }
 
 footer > p > a{
-    color: white;
+    color: var(--cor5);
     font-weight:bolder;
     text-decoration: none;
+    padding: 3px;
+}
+
+footer a{
+    background-image: linear-gradient(to right, var(--cor2), var(--Cor3));
+    
 }
 
 footer a:hover{
     text-decoration: underline;
-    color: var(--cor1);
-
+    transition-duration: 0.5s;
+    border-radius: 6px;
+    color: black;
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2));
 }
