@@ -8,7 +8,12 @@
 
 
 *{
- 
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
 }
 
 body{
@@ -23,6 +28,10 @@ header{
     color: white;
     height: 200px;
     margin-top: -34px;
+
+    /*text-transform: uppercase; = letras maiuscula
+    font-variant: small-caps
+    */
 
 }
 
@@ -42,22 +51,27 @@ header > p{
     width: 100%;
 }
 
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 section{
     font-size: 1.5em;
-    font-family: fantasy;
-    line-height: 2em;
-    padding-top: 30px;
-    padding-bottom: 30px;
-
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;    
+    padding-left: 0px;
 }
 
 section > p{
-    padding-left: 15px;
+    padding-left: 45px;
 }
 
 .img01{
-    padding-top: 50px;
-    padding-bottom: 50px;
     background-image: url('imagens/background001.jpg');
     
 
@@ -66,15 +80,13 @@ section > p{
 
 .img01 > p{
     color: white;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     width: 345px;
-    
+            
+    background-color: rgba(0, 0, 0, 0.39);
 }
 
 
 .img02{
-    padding-top: 50px;
-    padding-bottom: 50px;
     background-image: url('imagens/background002.jpg');
 
     
@@ -83,9 +95,16 @@ section > p{
 }
 
 .img02> p{
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(2px);
-    
+    background-color: rgba(0, 0, 0, 0.39);
     
     width: 345px;
+}
+
+footer{
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-variant: small-caps;
+    font-size: 18px;
 }
