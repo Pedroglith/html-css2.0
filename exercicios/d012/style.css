@@ -5,6 +5,10 @@
     src: url('fonte-cordel/EldesCordel-Demo.otf') format('opentype');
 }
 
+@font-face {
+    font-family: 'srira';
+    src: url(fonte-cordel/Sriracha-Regular.ttf) format('TrueType');
+}
 
 
 *{
@@ -70,6 +74,7 @@ section{
 
 section > p{
     padding-left: 45px;
+    font-family: 'srira';
 }
 
 .img01{
