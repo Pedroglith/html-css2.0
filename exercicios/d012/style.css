@@ -75,35 +75,45 @@ section{
 section > p{
     padding-left: 45px;
     font-family: 'srira';
+    padding-bottom: 2em;
 }
 
 .img01{
     background-image: url('imagens/background001.jpg');
-    
+    background-attachment: fixed;
 
-    background-position: center;
+    background-position: right center;
+    background-size: cover;
+
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.575);
 }
 
 .img01 > p{
     color: white;
     width: 345px;
             
-    background-color: rgba(0, 0, 0, 0.39);
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+
+    border-radius: 20%  0%;
 }
 
 
 .img02{
     background-image: url('imagens/background002.jpg');
-
+    background-attachment: fixed;
     
 
     background-position: center center;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.582);
 }
 
 .img02> p{
-    background-color: rgba(0, 0, 0, 0.39);
-    
+    background-color: hsla(0, 0%, 0%, 0.514);
+    text-shadow: 1px 1px 0px black;
     width: 345px;
+    border-radius: 20%  0%;
 }
 
 footer{
