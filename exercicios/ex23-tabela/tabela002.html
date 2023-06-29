@@ -16,6 +16,12 @@
         border-collapse: collapse;
     }
 
+    caption{
+        font-size: 1.5em;
+        padding: 5px;
+        background-color: gray;
+    }
+
     td, th{
         border: 1px solid black;
         padding: 10px;
@@ -40,6 +46,8 @@
         Anatomia para tabelas grandes
 
         Table
+            caption(titulo/legenda da tabela)
+
             Thead
                 tr,td,th
             Tbody
@@ -49,16 +57,17 @@
     -->
 
     <table>
+        <caption>Populaçâo dos estados do Brasil<caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>populaçâo</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">populaçâo</th>
             </tr>
         </thead>
     
         <tbody>
             <tr>
-                <td>sâo paulo</td>
+                <td>sao paulo</td>
                 <td>45.919.049</td>
             </tr>
             <tr>
@@ -78,9 +87,12 @@
         </tbody>
     
         <tfoot>
-            <th>Total de habitantes</th>
+            <th scope="row">Total de habitantes</th>
             <td><strong>110.659.794</strong></td>
         </tfoot>
     </table>
+
+    <p><a href="tabela.html">tabela 001</a></p>
+    <p><a href=""></a></p>
 </body>
 </html>
