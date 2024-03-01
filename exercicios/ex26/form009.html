@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php">
+
+        <p>
+            <label for="inu">Numero:</label>
+            <input type="range" id="inu" min="0" max="10" value="5"
+            oninput="val.innerHTML = Number(inu.value)">
+            <output id="val">5</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
