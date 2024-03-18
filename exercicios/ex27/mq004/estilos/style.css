@@ -1,6 +1,8 @@
 @charset "UTF-8"
 /*Versão mobile first*/
 
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -45,3 +47,25 @@ img#tablet{display: none;}
 img#print{display: none;}
 img#pc{display: none;}
 img#tv{display: none;}
+
+@media print{
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+ 
+    main{
+     width: 90vw;
+     border: 2px solid black;
+    }
+ 
+    main h1 {
+     text-shadow: none;
+     color: black;
+    }
+
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: block;}
+    img#pc{display: none;}
+    img#tv{display: none;}
+}
