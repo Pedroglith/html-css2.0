@@ -40,4 +40,12 @@
         float: right;
         width: 50%;
     }
+
+    #form > h1 {
+        font-size: 2em;
+    }
+
+    #form > p {
+        font-size: 1.2em;
+    }
 }
